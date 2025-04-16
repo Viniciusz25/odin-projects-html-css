@@ -101,6 +101,13 @@ a {
     justify-content: space-around;
 }
 
+.title-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 34px;
+    color: #1f2937;
+}
+
 .cards {
     display: flex;
     gap: 30px;
@@ -121,34 +128,49 @@ a {
 
 .card > p {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .quote {
-    width: 1064px;
+    height: 400px;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote > p {
+    width: 700px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
     text-align: justify;
-    margin: 200px;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.quote > .autor {
+    margin: 0;
+    padding: 0;
 }
 
 .quote p > span {
     font-weight: bold;
     color: #141a24;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
 }
 .calltoaction {
-    width: 1064px;
     background-color: white;
     display: flex;
     justify-content: center;
 }
 
 .calltoaction > .blue {
-    width: 1064px;
+    width: 80%;
+    height: 150px;
     background-color: #3882f6;
     border-radius: 10px;
     margin: 100px;
@@ -157,10 +179,23 @@ a {
     justify-content: space-around;
 }
 
-.blue > .title {
+.blue > .title-blue {
     padding: 30px;
+    height: auto;
 }
 
+.title-blue > h3 {
+    font-size: 22px;
+    color: white;
+    margin: 0;
+}
+
+.title-blue > p {
+    font-size: 18px;
+    color: #dadce0;
+    margin: 0;
+}
+ 
 .signup {
     width: 120px;
     color: #f9faf8;
@@ -174,6 +209,8 @@ a {
 
 .footer > p {
     color: #e5e7eb;
+    text-align: center;
+    margin: 30px;
 }
 
 
